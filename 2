@@ -1,0 +1,29 @@
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        string nome = "Fabio Santiago";
+        int idade = 17;
+        decimal saldoBancario = 1500.75m;
+        bool contaAtiva = true;
+        char categoriaCliente = 'A';
+
+        if (contaAtiva == true)
+        {
+            Console.WriteLine("Sua conta está ativa!");
+        }
+        else
+        {
+            Console.WriteLine("Sua conta não está ativa!");
+        }
+
+        Console.WriteLine();
+        Console.WriteLine("Nome: " + nome);
+        Console.WriteLine("Idade: " + idade + " anos");
+        Console.WriteLine("Saldo Bancário: R$" + saldoBancario);
+        Console.WriteLine("Conta Ativa? " + contaAtiva);
+        Console.WriteLine("Categoria do Cliente: " + categoriaCliente);
+    }
+}
